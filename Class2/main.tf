@@ -18,6 +18,6 @@
 #   source = "main.tf"
 # }
 resource "aws_s3_bucket" "example" {
-  bucket = "kaizen-"
+  bucket = "kaizen-andrei"
   force_destroy = true
 }
